@@ -54,3 +54,21 @@ git checkout branch/commit
 
 git checkout -b branch_name (tạo mới 1 branch)
 git checkout branch_name (check code tại 1 branch đã tạo)
+
+
+
+DỰ ÁN :
+bắt đầu dự án mới:
+1. git clone link dự án
+2. git checkout dev
+3. git checkout -b tên branch mới
+4. git push -u origin tên branch mới
+
+sau khi làm xong muốn đẩy lên dev để test:
+1. git add . (đẩy tất cả những gì mới nhất lên)
+2. git commit -m "cmt" (cmt tức là ghi chú những gì mình đã làm thật ngắn gọn VD: "lam chuc nang login")
+3. git push -u origin tên branch mới
+4. git checkout dev
+5. git pull origin dev
+6. git merge tên branch mới
+7. git push origin dev
